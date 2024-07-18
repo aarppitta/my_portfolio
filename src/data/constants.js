@@ -91,11 +91,13 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
-      {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
+      
+    ],
+  },
+  {
+    title: "Database",
+    skills: [
+      
       {
         name: "Postgresql",
         image: "https://www.postgresql.org/media/img/about/press/elephant.png",
@@ -106,34 +108,15 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
       {
+        name: "MySQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
+      {
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
-    ],
-  },
-  {
-    title: "Android",
-    skills: [
-      {
-        name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-      },
-      // {
-      //   name: "Kotlin",
-      //   image:
-      //     "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
-      // },
-      {
-        name: "XML",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
-      },
-      {
-        name: "Android Studio",
-        image:
-          "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
-      },
+     
     ],
   },
   {
@@ -196,6 +179,23 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
+    role: "Full Stack Developer Intern",
+    company: "Monke Labs - United Arab Emirates",
+    date: "February 2024 - March 2024",
+    desc: "Worked on the frontend of the web application using ReactJS.",
+    skills: [
+      "ReactJS",
+      "NodeJs",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+    ],
+    // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+  },
+  {
+    id: 0,
     // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
     role: "Full Stack MEAN Developer Trainee",
     company: "Fortray Global Management",
@@ -219,23 +219,7 @@ export const experiences = [
     ],
     // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
-  {
-    id: 0,
-    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Full Stack Developer Intern",
-    company: "Monke Labs - United Arab Emirates",
-    date: "February 2024 - March 2024",
-    desc: "Worked on the frontend of the web application using ReactJS.",
-    skills: [
-      "ReactJS",
-      "NodeJs",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Bootstrap",
-    ],
-    // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
-  },
+  
   {
     id: 1,
     // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
@@ -336,58 +320,51 @@ export const education = [
 ];
 
 export const projects = [
-  // {
-  //   id: 9,
-  //   title: "Trackify",
-  //   date: "Jun 2023 - Jul 2023",
-  //   description:
-  //     "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
-  //   tags: [
-  //     "Docker",
-  //     "AWS",
-  //     "DuckDNS",
-  //     "Eslint",
-  //     "Husky",
-  //     "CI/CD",
-  //     "React Js",
-  //     "MongoDb",
-  //     "Node Js",
-  //     "Express Js",
-  //     "Redux",
-  //   ],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Trackify",
-  //   webapp: "https://trackify.duckdns.org",
-  // },
-  // {
-  //   id: 0,
-  //   title: "Podstream",
-  //   date: "Apr 2023 - May 2023",
-  //   description:
-  //     "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
-  //   image:
-  //     "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
-  //   tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-  //   category: "web app",
-  //   github: "https://github.com/rishavchanda/Podstream",
-  //   webapp: "https://podstream.netlify.app/",
-  //   member: [
-  //     {
-  //       name: "Arpita Chaudhari",
-  //       img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-  //       linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  //       github: "https://github.com/rishavchanda/",
-  //     },
-  //     {
-  //       name: "Upasana Chaudhuri",
-  //       img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-  //       linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-  //       github: "https://github.com/upasana0710",
-  //     },
-  //   ],
-  // },
+  {
+    id: 9,
+    title: "Simple Blog",
+    date: "Dec 2023",
+    description:
+      "This is a simple blog website where you can read all the blogs. It is a sytatic website",
+    // image:
+    //   "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+     tags: [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      ,
+    ],
+    category: "web app",
+    github: "https://github.com/aarppitta/simply_blog",
+    webapp: "https://simply-blog-git-main-aarppittas-projects.vercel.app/",
+  },
+  {
+    id: 0,
+    title: "Podstream",
+    date: "Apr 2023 - May 2023",
+    description:
+      "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts on demand and create podcasts. Implemented user authentication using Google Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices. Practiced agile methodologies to optimize team efficiency and communication.",
+    image:
+      "https://user-images.githubusercontent.com/64485885/234602896-a1bd8bcc-b72b-4821-83d6-8ad885bf435e.png",
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+    category: "web app",
+    github: "https://github.com/rishavchanda/Podstream",
+    webapp: "https://podstream.netlify.app/",
+    member: [
+      {
+        name: "Arpita Chaudhari",
+        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+        github: "https://github.com/rishavchanda/",
+      },
+      {
+        name: "Upasana Chaudhuri",
+        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+        github: "https://github.com/upasana0710",
+      },
+    ],
+  },
   // {
   //   id: 1,
   //   title: "Vexa",
