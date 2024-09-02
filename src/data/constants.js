@@ -181,9 +181,9 @@ export const experiences = [
   {
     id: 2,
     // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Junior Front-End Angular Developer",
+    role: "Junior Front-End Angular Developer - Remote",
     company: "Cloud Web Technology",
-    date: "April 2018 - March 2021",
+    date: "September 2023 - Present",
     desc: "Contributing to different projects and learn from industry experts.",
     skills: [
       "AngularJS",
