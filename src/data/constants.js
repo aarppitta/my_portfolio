@@ -1,14 +1,15 @@
 export const Bio = {
   name: "Arpita Chaudhari",
   roles: [
-    "Full Stack Developer",
+    "Front-End Developer",
+    "Angular Developer",
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I am a motivated and versatile Front-End Developer, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/aarppitta",
   resume:
-    "https://drive.google.com/file/d/1IUJuAbfJet6TFfs0GW4DsdVd4ZLzzTNx/view?usp=sharing",
+    "hhttps://drive.google.com/file/d/1AIMBGUBE8DmvNzb65iiMSrU1lShUDfpA/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
   twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/rishav_chanda/",
@@ -24,11 +25,11 @@ export const skills = [
         image:
           "file:///Users/tina/Downloads/angularjs-plain.svg",
       },
-      {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
+      // {
+      //   name: "React Js",
+      //   image:
+      //     "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      // },
       // {
       //   name: "Redux",
       //   image:
@@ -86,11 +87,11 @@ export const skills = [
       //   name: "Graph Ql",
       //   image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
       // },
-      {
-        name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-      },
+      // {
+      //   name: "Python",
+      //   image:
+      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+      // },
       
     ],
   },
@@ -98,10 +99,10 @@ export const skills = [
     title: "Database",
     skills: [
       
-      {
-        name: "Postgresql",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      },
+      // {
+      //   name: "Postgresql",
+      //   image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+      // },
       {
         name: "MongoDB",
         image:
@@ -132,11 +133,11 @@ export const skills = [
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
+      // {
+      //   name: "Docker",
+      //   image:
+      //     "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      // },
       {
         name: "Netlify",
         image:
@@ -178,14 +179,32 @@ export const skills = [
 
 export const experiences = [
   {
+    id: 2,
+    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
+    role: "Junior Front-End Angular Developer",
+    company: "Cloud Web Technology",
+    date: "April 2018 - March 2021",
+    desc: "Contributing to different projects and learn from industry experts.",
+    skills: [
+      "AngularJS",
+      "MySQL",
+      "Bootstrap",
+      "JavaScript",
+      "HTML",
+      "CSS",
+     
+    ],
+    // doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
+  },
+  {
     id: 0,
     // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Full Stack Developer Intern",
+    role: "Front-End Angular Developer Intern",
     company: "Monke Labs - United Arab Emirates",
-    date: "February 2024 - March 2024",
-    desc: "Worked on the frontend of the web application using ReactJS.",
+    date: "April 2023 - June 2023",
+    desc: "Worked on the frontend of the web application using AngularJS.",
     skills: [
-      "ReactJS",
+      "AngularJS",
       "NodeJs",
       "HTML",
       "CSS",
@@ -194,65 +213,34 @@ export const experiences = [
     ],
     // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
-  {
-    id: 0,
-    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Full Stack MEAN Developer Trainee",
-    company: "Fortray Global Management",
-    date: "July 2023 - Present",
-    desc: "Working on Projects such as Grocery, Fashion and Medicare.",
-    skills: [
-      "Docker",
-      "AWS",
-      "EC2",
-      "Vercel",
-      "AngularJS",
-      "NodeJS",
-      "JavaScript",
-      "TypeScript",
-      "MongoDB",
-      "MySQL",
-      "ExpressJS",
-      "HTML",
-      "CSS",
+  // {
+  //   id: 0,
+  //   // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+  //   role: "Full Stack MEAN Developer Trainee",
+  //   company: "Fortray Global Management",
+  //   date: "July 2023 - Present",
+  //   desc: "Working on Projects such as Grocery, Fashion and Medicare.",
+  //   skills: [
+  //     "Docker",
+  //     "AWS",
+  //     "EC2",
+  //     "Vercel",
+  //     "AngularJS",
+  //     "NodeJS",
+  //     "JavaScript",
+  //     "TypeScript",
+  //     "MongoDB",
+  //     "MySQL",
+  //     "ExpressJS",
+  //     "HTML",
+  //     "CSS",
 
-    ],
-    // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-  },
+  //   ],
+  //    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+  // },
   
-  {
-    id: 1,
-    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "PHP Developer Trainee",
-    company: "Ibrainers Limited",
-    date: "February 2023 - June 2023",
-    desc: "Started where i left off. Woked on Projects and learned some advance level PHP.",
-    skills: [
-      "PHP",
-      "MySQL",
-      "Bootstrap"
-    ],
-  },
-  {
-    id: 2,
-    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Web Developer ",
-    company: "Cloud Web Technology",
-    date: "April 2018 - March 2021",
-    desc: "Contributing to different projects and learn from industry experts.",
-    skills: [
-      "PHP",
-      "MySQL",
-      "Bootstrap",
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Django",
-      "Python",
-      
-    ],
-    // doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
-  },
+  
+ 
   // {
   //   id: 3,
   //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
@@ -346,7 +334,7 @@ export const projects = [
     description:
       "Developed a full-stack web application that allows users to buy clothes.",
     image:
-      "./images/fashion.png",
+      "images/fashion.png",
     tags: ["Angular Js", "MongoDb", "Node Js", "Express Js", "Bootstrap"],
     category: "web app",
     github: "https://github.com/aarppitta/fashion",
@@ -451,7 +439,7 @@ export const projects = [
       "Node Js",
       "Express Js",
       "JWT",
-    "Redis"],
+    ],
     category: "web app",
     // github: "https://github.com/rishavchanda/Job-finder-App",
     // webapp: "https://github.com/rishavchanda/Job-finder-App",
