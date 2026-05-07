@@ -18,7 +18,7 @@ export const projects = [
     description:
       'Project management app with auth, task assignment, status tracking, and team collaboration.',
     stack: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
-    github: 'https://github.com/arpitachaudhari/task-management',
+    github: 'https://github.com/aarppitta/Task-Management',
     demo: null,
     accent: 'product',
   },
@@ -29,7 +29,7 @@ export const projects = [
     description:
       'End-to-end job board with employer & candidate flows, job listings, application tracking, and search/filter.',
     stack: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
-    github: 'https://github.com/arpitachaudhari/job-portal',
+    github: 'https://github.com/aarppitta/Job-portal-MERN',
     demo: null,
     accent: 'product',
   },

@@ -2,7 +2,7 @@ export const experience = [
   {
     company: 'Kevision Systems',
     role: 'System Software Engineer',
-    period: 'Jan 2025 — Present',
+    period: 'April 2025 — Present',
     location: 'Ahmedabad, India',
     bullets: [
       'Building an OPC-UA client application that connects to industrial PLCs and streams real-time machine data into MySQL.',
