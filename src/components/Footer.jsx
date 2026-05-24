@@ -16,7 +16,7 @@ export default function Footer() {
         </div>
 
         {/* Contact section */}
-        <div className="border-t border-ink-700/50 pt-8">
+        <div id="contact" className="scroll-mt-24 border-t border-ink-700/50 pt-8">
           <p className="text-center text-xs uppercase tracking-widest text-bone-400 mb-4">
             Let's connect
           </p>

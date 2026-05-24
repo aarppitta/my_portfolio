@@ -1,4 +1,5 @@
 import { MapPin } from 'lucide-react';
+import { motion } from 'framer-motion';
 import { experience } from '../data/experience';
 import { SectionHeader } from './SectionHeader';
 import { Reveal } from './Reveal';
@@ -19,7 +20,17 @@ export default function Experience() {
 
         <div className="relative mt-20 pl-6 sm:pl-12">
           {/* Timeline line */}
-          <div className="absolute left-0 top-2 bottom-2 w-px bg-gradient-to-b from-accent-500/60 via-ink-600 to-transparent" />
+          <div className="absolute left-0 top-2 bottom-2 w-px overflow-hidden bg-gradient-to-b from-accent-500/60 via-ink-600 to-transparent">
+            {/* Traveling pulse */}
+            <motion.span
+              aria-hidden="true"
+              className="absolute left-1/2 h-24 w-px -translate-x-1/2 bg-gradient-to-b from-transparent via-accent-400 to-transparent"
+              style={{ filter: 'blur(0.5px)', boxShadow: '0 0 8px rgba(129,140,248,0.9)' }}
+              initial={{ top: '-20%' }}
+              animate={{ top: '110%' }}
+              transition={{ duration: 6, ease: 'easeInOut', repeat: Infinity, repeatDelay: 0.8 }}
+            />
+          </div>
 
           <ol className="space-y-12">
             {experience.map((job, i) => (

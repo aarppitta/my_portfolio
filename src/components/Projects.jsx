@@ -5,7 +5,7 @@ import { Reveal, StaggerGroup, StaggerItem } from './Reveal';
 
 function FeaturedCard({ p }) {
   return (
-    <div className="group relative overflow-hidden rounded-2xl border border-ink-700 bg-ink-800/60 p-8 transition hover:border-accent-500/50 hover:shadow-glow">
+    <div className="group relative h-full overflow-hidden rounded-2xl border border-ink-700 bg-ink-800/60 p-8 transition hover:border-accent-500/50 hover:shadow-glow">
       <div className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-accent-500/10 blur-3xl opacity-60 transition group-hover:opacity-100" />
       <div className="relative">
         <div className="flex items-center justify-between">
@@ -88,9 +88,9 @@ export default function Projects() {
           lead="A mix of production systems, full-stack apps, and hardware-integrated backends. Each one solves a real problem."
         />
 
-        <StaggerGroup className="mt-16 grid gap-6 lg:grid-cols-3">
+        <StaggerGroup className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {featured.map((p) => (
-            <StaggerItem key={p.name} className={p === featured[0] ? 'lg:col-span-3' : ''}>
+            <StaggerItem key={p.name}>
               <FeaturedCard p={p} />
             </StaggerItem>
           ))}

@@ -51,13 +51,45 @@ export default function HeroArt() {
 
         {/* Outer circuit lines */}
         <g stroke="url(#lineGrad)" strokeWidth="1.4" fill="none">
-          <path d="M40 100 L120 100 L120 200 L160 200" />
-          <path d="M40 260 L100 260 L100 320 L160 320" />
-          <path d="M480 140 L400 140 L400 220 L360 220" />
-          <path d="M480 360 L420 360 L420 300 L360 300" />
-          <path d="M260 460 L260 500 L120 500" />
-          <path d="M260 460 L260 510 L420 510" />
+          <path id="wire-1" d="M40 100 L120 100 L120 200 L160 200" />
+          <path id="wire-2" d="M40 260 L100 260 L100 320 L160 320" />
+          <path id="wire-3" d="M480 140 L400 140 L400 220 L360 220" />
+          <path id="wire-4" d="M480 360 L420 360 L420 300 L360 300" />
+          <path id="wire-5" d="M260 460 L260 500 L120 500" />
+          <path id="wire-6" d="M260 460 L260 510 L420 510" />
         </g>
+
+        {/* Animated pulses traveling along the wires */}
+        {[
+          { id: 'wire-1', dur: '2.6s', delay: '0s' },
+          { id: 'wire-2', dur: '3.2s', delay: '0.6s' },
+          { id: 'wire-3', dur: '2.4s', delay: '1.1s' },
+          { id: 'wire-4', dur: '3.0s', delay: '0.3s' },
+          { id: 'wire-5', dur: '3.6s', delay: '1.4s' },
+          { id: 'wire-6', dur: '2.8s', delay: '0.9s' },
+        ].map((w) => (
+          <g key={w.id}>
+            <circle r="3.2" fill="#818CF8">
+              <animateMotion dur={w.dur} begin={w.delay} repeatCount="indefinite" rotate="auto">
+                <mpath href={`#${w.id}`} />
+              </animateMotion>
+              <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.9;1" dur={w.dur} begin={w.delay} repeatCount="indefinite" />
+            </circle>
+            <circle r="6" fill="#6366F1" opacity="0.35">
+              <animateMotion dur={w.dur} begin={w.delay} repeatCount="indefinite">
+                <mpath href={`#${w.id}`} />
+              </animateMotion>
+              <animate attributeName="opacity" values="0;0.5;0.5;0" keyTimes="0;0.1;0.9;1" dur={w.dur} begin={w.delay} repeatCount="indefinite" />
+            </circle>
+          </g>
+        ))}
+
+        {/* Vertical scan beam sweeping the rack */}
+        <line x1="160" y1="120" x2="360" y2="120" stroke="#818CF8" strokeWidth="1.2" opacity="0.7">
+          <animate attributeName="y1" values="120;440;120" dur="5s" repeatCount="indefinite" />
+          <animate attributeName="y2" values="120;440;120" dur="5s" repeatCount="indefinite" />
+          <animate attributeName="opacity" values="0;0.7;0" dur="5s" repeatCount="indefinite" />
+        </line>
 
         {/* Outer nodes */}
         {[
