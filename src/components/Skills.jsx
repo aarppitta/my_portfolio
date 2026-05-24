@@ -110,12 +110,7 @@ export default function Skills() {
           {skillGroups.map((group) => (
             <StaggerItem key={group.label}>
               <div className="card card-hover h-full">
-                <div className="flex items-center justify-between">
-                  <h3 className="font-display text-lg text-bone-50">{group.label}</h3>
-                  <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-bone-400">
-                    {String(group.items.length).padStart(2, '0')}
-                  </span>
-                </div>
+                <h3 className="font-display text-lg text-bone-50">{group.label}</h3>
                 <div className="mt-5 flex flex-wrap gap-2.5">
                   {group.items.map((item) => (
                     <TechPill key={item} name={item} />

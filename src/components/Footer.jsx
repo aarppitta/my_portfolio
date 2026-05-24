@@ -11,7 +11,7 @@ export default function Footer() {
             © {new Date().getFullYear()} {profile.name}
           </p>
           <p className="font-mono text-xs text-bone-400">
-            Built with React · Tailwind · Framer Motion
+            Designed &amp; built by Arpita · Ahmedabad <span className="text-accent-400">→</span> Global
           </p>
         </div>
 
