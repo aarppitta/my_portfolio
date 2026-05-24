@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import Footer from './components/Footer';
+import SoundToggle from './components/SoundToggle';
 
 export default function App() {
   useEffect(() => {
@@ -31,6 +32,7 @@ export default function App() {
         <Education />
       </main>
       <Footer />
+      <SoundToggle />
     </div>
   );
 }
