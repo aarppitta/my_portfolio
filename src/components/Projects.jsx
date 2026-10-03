@@ -85,7 +85,7 @@ export default function Projects() {
               Projects, <span className="text-accent-500">shipped.</span>
             </>
           }
-          lead="A mix of production systems, full-stack apps, and hardware-integrated backends. Each one solves a real problem."
+          lead="Production industrial systems — WebSCADA, OPC servers and commissioning tools — built for pharma and manufacturing floors."
         />
 
         <StaggerGroup className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -96,20 +96,24 @@ export default function Projects() {
           ))}
         </StaggerGroup>
 
-        <Reveal delay={0.1}>
-          <div className="mt-20 mb-8 flex items-center gap-4">
-            <span className="eyebrow">More</span>
-            <span className="h-px flex-1 bg-ink-700" />
-          </div>
-        </Reveal>
+        {rest.length > 0 && (
+          <>
+            <Reveal delay={0.1}>
+              <div className="mt-20 mb-8 flex items-center gap-4">
+                <span className="eyebrow">More</span>
+                <span className="h-px flex-1 bg-ink-700" />
+              </div>
+            </Reveal>
 
-        <StaggerGroup className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
-          {rest.map((p) => (
-            <StaggerItem key={p.name}>
-              <CompactCard p={p} />
-            </StaggerItem>
-          ))}
-        </StaggerGroup>
+            <StaggerGroup className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
+              {rest.map((p) => (
+                <StaggerItem key={p.name}>
+                  <CompactCard p={p} />
+                </StaggerItem>
+              ))}
+            </StaggerGroup>
+          </>
+        )}
       </div>
     </section>
   );

@@ -62,9 +62,9 @@ export default function Hero() {
             transition={{ delay: 0.55, duration: 0.6 }}
             className="mt-8 max-w-xl text-base sm:text-lg leading-relaxed text-bone-300"
           >
-            I design and build scalable systems, 
-            from secure JWT-based REST APIs and real-time Socket.IO applications to industrial OPC-UA data pipelines, 
-            ensuring both robust backend performance and intuitive frontend experiences.
+            I design and build industrial software end-to-end,
+            from custom Python OPC servers and PLC protocol drivers to 21 CFR Part 11-compliant WebSCADA platforms,
+            delivering production-grade systems for pharma and manufacturing floors.
 
           </motion.p>
 

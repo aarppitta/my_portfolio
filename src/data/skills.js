@@ -1,27 +1,27 @@
 export const skillGroups = [
   {
-    label: 'Frontend',
-    items: ['React.js', 'Angular', 'TypeScript', 'JavaScript (ES6+)', 'HTML5', 'CSS3'],
+    label: 'Industrial & OT',
+    items: ['OPC-UA', 'Modbus TCP/RTU', 'FINS Serial', 'FINS Ethernet', 'WebSCADA', 'LabVIEW', 'Zenon', '21 CFR Part 11', 'Digital Signatures', 'ISA-95 (L2/L3)'],
   },
   {
-    label: 'Backend',
-    items: ['Node.js', 'Express.js', 'Python', 'Django'],
+    label: 'Python Back-End',
+    items: ['Python', 'FastAPI', 'Django', 'asyncio', 'Pydantic', 'REST APIs', 'JWT', 'RBAC'],
+  },
+  {
+    label: 'Front-End',
+    items: ['Angular', 'React.js', 'TypeScript', 'JavaScript (ES6+)', 'HTML5', 'CSS3'],
   },
   {
     label: 'Databases',
-    items: ['MongoDB', 'MySQL', 'PostgreSQL'],
+    items: ['MySQL', 'MongoDB'],
   },
   {
-    label: 'Auth & APIs',
-    items: ['REST APIs', 'JWT', 'Socket.IO', 'OPC-UA'],
+    label: 'DevOps & Tools',
+    items: ['Docker', 'Docker Compose', 'PyInstaller', 'NSSM', 'Git', 'GitHub', 'AWS (EC2)', 'Postman', 'Agile / Scrum'],
   },
   {
-    label: 'Cloud & DevOps',
-    items: ['AWS (EC2)', 'Docker', 'Vercel', 'Git', 'GitHub'],
-  },
-  {
-    label: 'Tools',
-    items: ['Postman', 'Figma'],
+    label: 'Leadership',
+    items: ['Technical Lead', 'Mentoring', 'Code Review', 'Task Planning', 'Cross-team Coordination'],
   },
 ];
 

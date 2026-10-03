@@ -34,8 +34,11 @@ export default function About() {
 
         <div className="lg:col-span-5">
           <StaggerGroup className="grid grid-cols-2 gap-4">
-            {profile.stats.map((s) => (
-              <StaggerItem key={s.label}>
+            {profile.stats.map((s, i) => (
+              <StaggerItem
+                key={s.label}
+                className={profile.stats.length % 2 && i === profile.stats.length - 1 ? 'col-span-2' : undefined}
+              >
                 <div className="card card-hover h-full">
                   <div className="font-display text-4xl sm:text-5xl text-bone-50 leading-none">
                     {s.value}

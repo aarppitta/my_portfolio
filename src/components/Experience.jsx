@@ -12,7 +12,7 @@ export default function Experience() {
           kicker="02 / Experience"
           title={
             <>
-              Built across <span className="text-accent-500">three</span> countries.
+              Built across <span className="text-accent-500">two</span> countries.
             </>
           }
           lead="From London-based MEAN stack work to Indian manufacturing-floor OPC-UA systems — a track record of shipping production software in different domains."
