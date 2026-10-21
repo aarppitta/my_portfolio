@@ -85,7 +85,7 @@ export default function Projects() {
               Projects, <span className="text-accent-500">shipped.</span>
             </>
           }
-          lead="Production industrial systems — WebSCADA, OPC servers and commissioning tools — built for pharma and manufacturing floors."
+          lead="Production industrial systems — WebSCADA, OPC servers and commissioning tools — built for pharma and manufacturing floors, plus a full-stack job search tool."
         />
 
         <StaggerGroup className="mt-16 grid gap-6 md:grid-cols-2 lg:grid-cols-3">

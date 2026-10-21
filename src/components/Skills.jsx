@@ -9,6 +9,7 @@ const iconSlug = {
   'Angular': 'angular',
   'TypeScript': 'typescript',
   'JavaScript (ES6+)': 'javascript',
+  'JavaScript': 'javascript',
   'HTML5': 'html5',
   'CSS3': 'css',
   'Node.js': 'nodedotjs',
@@ -32,7 +33,7 @@ const iconSlug = {
 };
 
 function TechIcon({ name }) {
-  if (name === 'AWS (EC2)') {
+  if (name === 'AWS' || name === 'AWS (EC2)') {
     return <Cloud size={16} strokeWidth={2} className="shrink-0 text-accent-400" />;
   }
   const slug = iconSlug[name];

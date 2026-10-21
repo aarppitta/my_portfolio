@@ -38,8 +38,8 @@ export const projects = [
     tag: 'SCADA',
     featured: true,
     description:
-      'Angular SCADA application with real-time operator screens for compression machines: machine status, process values, operator controls and parameter configuration. Defined the data interface contract with the LabVIEW / Zenon backend layer, and leading junior developers on architecture, code review and delivery.',
-    stack: ['Angular', 'TypeScript', 'LabVIEW', 'Zenon', 'SCADA'],
+      'Angular SCADA application with real-time operator screens for compression machines: machine status, process values, operator controls and parameter configuration. Defined the data interface contract with the LabVIEW backend layer, using direct LabVIEW connectivity for faster real-time data exchange, and leading a junior developer on architecture, code review and delivery.',
+    stack: ['Angular', 'TypeScript', 'LabVIEW', 'SCADA'],
     github: null,
     demo: null,
     accent: 'industrial',
@@ -51,5 +51,13 @@ export const projects = [
     description:
       'Python utility that generates validated config.ini files for pharma processing machines (IP addresses, database settings and trigger bits), eliminating manual INI editing errors. Deployed in a regulated pharma manufacturing environment ahead of production runs.',
     stack: ['Python', 'config.ini', 'Industrial Protocols'],
+  },
+  {
+    name: 'Job Application — Job Search & Application Tracker',
+    tag: 'Full Stack',
+    featured: false,
+    description:
+      'Web app that collects software jobs in Germany from 75+ company career sites and recruiter job pages, removes duplicates and hides closed jobs. Scores each job against the CV, shows missing skills, tracks applications, interviews and follow-ups, creates German/EU-format CVs and cover letters, and fills company application forms automatically with Playwright.',
+    stack: ['Python', 'FastAPI', 'PostgreSQL', 'React', 'TypeScript', 'Playwright'],
   },
 ];

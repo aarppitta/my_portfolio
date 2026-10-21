@@ -35,6 +35,9 @@ export default function Education() {
                 <p className="mt-1 inline-flex items-center gap-1 text-xs text-bone-400">
                   <MapPin size={11} /> {e.location}
                 </p>
+                {e.period && (
+                  <p className="mt-3 font-mono text-[11px] uppercase tracking-[0.18em] text-bone-300">{e.period}</p>
+                )}
               </div>
             </Reveal>
           ))}

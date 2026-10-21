@@ -4,7 +4,7 @@ export const profile = {
   title: 'Industrial Software Engineer',
   subtitle: 'IIoT & OT Systems · Python · FastAPI · Angular · OPC-UA',
   location: 'Ahmedabad, India',
-  email: 'arpitachaudhari28@gmail.com',
+  email: 'arpitachaudhari29@gmail.com',
   // TODO: replace with real URLs before publishing
   github: 'https://github.com/aarppitta',
   linkedin: 'https://www.linkedin.com/in/arpita-chaudhari/',
