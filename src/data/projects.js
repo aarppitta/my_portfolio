@@ -39,7 +39,7 @@ export const projects = [
     featured: true,
     description:
       'Angular SCADA application with real-time operator screens for compression machines: machine status, process values, operator controls and parameter configuration. Defined the data interface contract with the LabVIEW backend layer, using direct LabVIEW connectivity for faster real-time data exchange, and leading a junior developer on architecture, code review and delivery.',
-    stack: ['Angular', 'TypeScript', 'LabVIEW', 'SCADA'],
+    stack: ['Angular', 'TypeScript', 'LabVIEW Connectivity', 'SCADA'],
     github: null,
     demo: null,
     accent: 'industrial',

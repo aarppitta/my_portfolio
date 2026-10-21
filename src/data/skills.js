@@ -5,7 +5,7 @@ export const skillGroups = [
   },
   {
     label: 'Industrial & OT',
-    items: ['SCADA', 'WebSCADA', 'OPC', 'OPC UA', 'Modbus', 'FINS', 'PLC Communication', 'IIoT', '21 CFR Part 11', 'LabVIEW'],
+    items: ['SCADA', 'WebSCADA', 'OPC', 'OPC UA', 'Modbus', 'FINS', 'PLC Communication', 'IIoT', '21 CFR Part 11', 'LabVIEW Connectivity'],
   },
   {
     label: 'Databases & Cloud',
